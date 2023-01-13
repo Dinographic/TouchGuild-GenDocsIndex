@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(24, 28, 31);
 }
@@ -23,7 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     inline-size: 80%;
-    block-size: 70%;
+    /* block-size: 70%; */ 
 }
 
 .fullicon {
@@ -32,8 +33,8 @@ body {
 
 .links {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     align-content: center;
     inline-size: 100%;
@@ -41,7 +42,8 @@ body {
 }
 
 .links a {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Manrope', sans-serif;
+    /* font-family: "Montserrat", sans-serif; */
     color: white;
     text-decoration: none;
 }
@@ -50,10 +52,36 @@ body {
     color: rgb(173, 86, 255);
 }
 
+.links-config {
+    background-color: #5b5b5b73;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 12px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
 .spacer {
     margin-right: 1rem;
     margin-left: 1rem;
     color: whitesmoke;
+}
+
+.footer-font {
+    font-family: 'Manrope', sans-serif;
+    color: rgb(226, 212, 212);
+    font-size: 14px;
+}
+
+.footer-config {
+    display: flex;
+    align-items: center;
+    background-color: #464646;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 12px;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 @media (max-width:450px){
